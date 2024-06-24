@@ -56,7 +56,6 @@ export const MEDIDUM = 'https://medium.com/@lobehub';
 export const X = 'https://x.com/lobehub';
 export const RELEASES_URL = urlJoin(GITHUB, 'releases');
 
-export const R2_CDN_URL = 'https://hub-apac-1.lobeobjects.space/';
-
-export const getR2Url = (filename: string) => urlJoin(R2_CDN_URL, filename);
 export const mailTo = (email: string) => `mailto:${email}`;
+
+export const AES_GCM_URL = 'https://datatracker.ietf.org/doc/html/draft-ietf-avt-srtp-aes-gcm-01';
